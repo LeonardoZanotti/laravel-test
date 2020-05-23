@@ -46,10 +46,10 @@ php artisan serve
 
 ```
 
-O usuário admin está definido no seeder, logue com ele para ter acesso as demais funções.
-ALém disso é necessário passar o token no header das requisições: **Authorization | Bearer + token**. Isso fará a autenticação dos usuários logados.
+O usuário admin está definido no seeder, logue com ele para ter acesso às demais funções.
+Além disso é necessário passar o token no header das requisições: **Authorization | Bearer + token**. Isso fará a autenticação dos usuários logados.
 
 # Testes
-Acredito que usando o [postman](https://www.postman.com/) e definindo as rotas dê pra testar tranquilo. [Insomnia](https://insomnia.rest/) também deve servir.
+Usei o [postman](https://www.postman.com/) para testar o projeto mas o [Insomnia](https://insomnia.rest/) também deve servir.
 
 # LeonardoZanotti
