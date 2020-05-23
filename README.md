@@ -1,7 +1,7 @@
 # laravel-test
 CRUDs feitas em [laravel](https://laravel.com/), tendo relacionamento entra elas (1:1, 1:N e N:N) além de sistema de autenticação feito com [passport](https://laravel.com/docs/7.x/passport), com login, registro e logout. Está definido o privilégio de admin para um usuário padrão e foi usado Seeders para preencher as tabelas.
 
-#Requisitos
+# Requisitos
 * Estou me baseando em usuários Linux, então seria bom usá-lo. Para Windows os processos são diferentes.
 * Laravel 5.7.29
 * Composer
@@ -9,7 +9,7 @@ CRUDs feitas em [laravel](https://laravel.com/), tendo relacionamento entra elas
 * PHP 7.3
 * Git
 
-#Instalação:
+# Instalação:
 
 ```
 composer install
@@ -49,7 +49,7 @@ php artisan serve
 O usuário admin está definido no seeder, logue com ele para ter acesso as demais funções.
 ALém disso é necessário passar o token no header das requisições: **Authorization | Bearer + token**. Isso fará a autenticação dos usuários logados.
 
-#Testes
+# Testes
 Acredito que usando o [postman](https://www.postman.com/) e definindo as rotas dê pra testar tranquilo. [Insomnia](https://insomnia.rest/) também deve servir.
 
-#LeonardoZanotti
+# LeonardoZanotti
